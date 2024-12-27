@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <title>Apple Watch Series 9 | Korimen</title>
+</head>
+<body>
+    
+
+
+<!---------------------------------------------------- Menu ---------------------------------------------------->
+<nav class="menu">
+
+  <div class="imglogo"> <a href="index.html">Korimen</a></div>
+        
+  <div class="search">
+    <div class="row">
+      <input class="search-input" type="text" id="search" placeholder="Search">
+      <button class="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="results" id="results"></div>
+  </div>
+
+
+  <ul class="list">
+            
+    <div class="listbar">
+      <a href="index.html">Home</a>
+    </div>
+    <div class="listbar">
+      <a href="product.html">Product</a>
+    </div>
+    <div class="listbar">
+      <a href="cart.html">Cart</a>
+    </div>
+    <div class="listbonus">
+      <a href="checkout.html">Checkout</a>
+    </div>
+
+    <i class='bx bx-shopping-bag' id="cart-icon" title="ตะกร้า"></i>
+    <span class="badge">0</span>
+
+  </ul>
+
+
+  <div class="searchmini">
+    <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+  </div>
+  
+  <div class="imglogo2"> <a href="index.html">Korimen</a></div>
+  
+  <div class="toggle_btn">
+    <i class="fa-solid fa-bars" id="menu-icon" title="เมนู"></i>
+  </div>
+
+</nav>
+
+
+    
+<!-------------------------------------------------- Menu Active ---------------------------------------------------->
+<div class="minimenu">
+
+  <div class="listminimenu">
+    <p class="listtext"><a href="index.html">HOME</a></p>
+    <p class="listtext"><a href="product.html">PRODUCT</a></p>
+    <p class="listtext"><a href="cart.html">CART</a></p>
+    <p class="listtext"><a href="checkout.html">CHECKOUT</a></p>
+  </div>
+
+  <i class='bx bx-x' id="menupid"></i>
+
+</div>
+
+
+
+<!------------------------------------------------ Search Active ---------------------------------------------------->
+<div class="minisearch">
+
+  <div class="cropsearch">
+  <input class="minisearchinput" id="searchmini-input" type="text" placeholder="Type something...">
+  <i class='bx bx-x' id="searchpid"></i>
+  <div class="resultsmini" id="resultsmini"></div>
+  </div>
+
+</div>
+
+
+    
+<!---------------------------------------------------- Cart ---------------------------------------------------->
+<div class="cart">
+
+  <h2 class="cart-title">Your Cart</h2>
+
+  <div class="cart-content"></div>
+
+  <div class="total">
+    <div class="total-title">Total</div>
+    <div class="total-price">$0</div>
+  </div>
+       
+  <button type="button" class="btn-buy">Buy Now</button>
+       
+  <i class='bx bx-x' id="cart-close"></i>
+
+</div>
+
+
+
+<!---------------------------------------------------- Product Page ---------------------------------------------------->
+<div class = "main-wrapper"  data-product-name="Apple Watch Series 9" data-product-price="$399.00" data-product-image="/img/wat9cream.png">
+
+  <div class = "containerr">
+    <div class = "product-div">
+      <div class = "product-div-left">
+        <div class="img-container3">
+          <div class="widthpro3"><img class="appwat9page" src = "/img/wat9cream.png" alt = "watch"></div>
+        </div>
+        <div class = "hover-container">
+          <div class="propic"><img src = "/img/wat9cream.png"></div>
+          <div class="propic"><img src = "/img/wat9black.png"></div>
+          <div class="propic"><img src = "/img/wat9pink.png"></div>
+          <div class="propic"><img src = "/img/wat9red.png"></div>
+        </div>
+      </div>
+
+      <div class = "product-div-right">
+        <span class = "product-name">Apple Watch Series 9</span>
+        <span class = "product-price">$399.00</span>
+        <div class = "product-rating">
+          <span><i class = "fas fa-star"></i></span>
+          <span><i class = "fas fa-star"></i></span>
+          <span><i class = "fas fa-star"></i></span>
+          <span><i class = "fas fa-star"></i></span>
+          <span><i class = "fas fa-star-half-alt"></i></span>
+          <span>(358 ratings)</span>
+        </div>
+        <div class="prodetail">
+          <p class = "product-description">Apple Watch Series 9 (แอปเปิ้ลวอช 9) มาพร้อมสีใหม่ สีชมพู ครั้งแรก!! สวยสะดุดตา มีการอัปเกรดที่ดีขึ้น ประมวลผลด้วยชิป S9 แรงขึ้นกว่าเดิม หน้าจอที่สว่างขึ้น 2 เท่า มองได้ง่ายขึ้นทั้งที่สว่างและที่มืดสนิท  มาพร้อมคำสั่งนิ้ว "แตะสองครั้ง" ใช้งานได้แบบสบาย แถมยังสามารถดูได้ว่า Apple Watch อยู่ห่างจาก iPhone ของคุณมากแค่ไหน มีเซ็นเซอร์และแอปวัดออกซิเจนในเลือด
+          เซ็นเซอร์วัดหัวใจแบบไฟฟ้าและแอป ECG แถมใช้งานได้นานขึ้นถึง 18 ชั่วโมง ซื้อ Apple Watch 9 ที่ Korimen ได้อย่างมั่นใจ ด้วยศูนย์ซ่อมและบริการสินค้า Apple จากผู้เชี่ยวชาญ “iCare” ทั่วประเทศใกล้บ้านคุณ</p></div>
+          <div class = "btn-groups">
+            <button type = "button" class = "buy-now-btn"><i class = "fas fa-wallet"></i>BUY NOW</button>
+            <button type = "button" class = "add-cart-btn"><i class = "fas fa-shopping-cart"></i>ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+  </div>
+
+</div>
+
+
+    
+<!------------------------------------------------ Footer ---------------------------------------------------->
+<footer class="footer">
+
+  <div class="containerrr">
+    <div class="rowww">
+      <div class="footer-col">
+        <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>get help</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">shipping</a></li>
+          <li><a href="#">returns</a></li>
+          <li><a href="#">order status</a></li>
+          <li><a href="#">payment options</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>online shop</h4>
+        <ul>
+          <li><a href="#">watch</a></li>
+          <li><a href="#">bag</a></li>
+          <li><a href="#">shoes</a></li>
+          <li><a href="#">dress</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+
+<!------------------------------------------------ JS ---------------------------------------------------->
+<script src="/js/wat9.js"></script>
+
+
+
+</body>
+</html>

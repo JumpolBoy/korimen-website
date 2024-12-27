@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Korimen Website">
+  <meta name="keywords" content="Website, Front-End, Ecommerce">
+  <meta property="og:title" content="Korimen">
+  <meta property="og:description" content="The shop is all about Apple products, from gadgets to accessories!">
+  <meta property="og:image" content="korimenpicweb.png">
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://korimen-website.netlify.app">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Korimen Website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <title>Korimen Official Store</title>
+</head>
+<body>
+    
+
+
+<!---------------------------------------------------- Menu ---------------------------------------------------->
+<nav class="menu">
+
+  <div class="imglogo"> <a href="index.html">Korimen</a></div>
+        
+  <div class="search">
+    <div class="row">
+      <input class="search-input" type="text" id="search" placeholder="Search">
+      <button class="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="results" id="results"></div>
+  </div>
+
+
+  <ul class="list">
+            
+    <div class="listbar">
+      <a href="index.html">Home</a>
+    </div>
+    <div class="listbar">
+      <a href="product.html">Product</a>
+    </div>
+    <div class="listbar">
+      <a href="cart.html">Cart</a>
+    </div>
+    <div class="listbonus">
+      <a href="checkout.html">Checkout</a>
+    </div>
+            
+  </ul>
+
+
+  <div class="searchmini">
+    <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+  </div>
+  
+  <div class="imglogo2"> <a href="index.html">Korimen</a></div>
+
+  <div class="toggle_btn">
+    <i class="fa-solid fa-bars" id="menu-icon" title="เมนู"></i>
+  </div>
+
+</nav>
+
+
+
+<!------------------------------------------------ Hero ---------------------------------------------------->
+<section  class="heroo" id="hero">
+
+  <div class="heroooapple">
+    <h4>Trade-in-offer</h4>
+    <h2>Super value deals</h2>
+    <h1>On all products</h1><br>
+    <p>Save more with coupons & <span class="highlight70">up to 70%  off!</span></p>
+    <button class="btnhero"><a href="product.html">Shop Now</a></button>
+  </div>
+
+</section>
+
+
+
+<!------------------------------------------------ Menu Active ---------------------------------------------------->    
+<div class="minimenu">
+
+  <div class="listminimenu">
+    <p class="listtext"><a href="index.html">HOME</a></p>
+    <p class="listtext"><a href="product.html">PRODUCT</a></p>
+    <p class="listtext"><a href="cart.html">CART</a></p>
+    <p class="listtext"><a href="checkout.html">CHECKOUT</a></p>
+  </div>
+
+  <i class='bx bx-x' id="menupid"></i>
+
+</div>
+
+
+
+<!------------------------------------------------ Search Active ---------------------------------------------------->
+<div class="minisearch">
+
+  <div class="cropsearch">
+  <input class="minisearchinput" id="searchmini-input" type="text" placeholder="Type something...">
+  <i class='bx bx-x' id="searchpid"></i>
+  <div class="resultsmini" id="resultsmini"></div>
+  </div>
+
+</div>
+
+
+
+<!------------------------------------------- Products Scroll ---------------------------------------------------->
+<section id="tranding">
+
+  <div class="container">
+    <h3 class="text-center section-subheading">“Think Different.”</h3>
+    <h1 class="text-center section-heading">Ecosystem</h1>
+  </div>
+
+    <div class="container">
+      <div class="swiper tranding-slider">
+        <div class="swiper-wrapper">
+
+          <!-- Slide-start -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="/img/3applewat.png" alt="Tranding">
+            </div>
+            <div class="tranding-slide-content">
+              <div class="tranding-slide-content-bottom">
+                <h2 class="food-name">
+                  Apple Watch
+                </h2>
+                <h3 class="food-rating">
+                  <span>5.0</span>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+
+          <!-- Slide-start -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="/img/macbookpro.jpg" alt="Tranding">
+            </div>
+            <div class="tranding-slide-content">    
+              <div class="tranding-slide-content-bottom">
+                <h2 class="food-name">
+                  MacBook Pro
+                </h2>
+                <h3 class="food-rating">
+                  <span>5.0</span>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+
+          <!-- Slide-start -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="/img/prodisplay.png" alt="Tranding">
+            </div>
+            <div class="tranding-slide-content"> 
+              <div class="tranding-slide-content-bottom">
+                <h2 class="food-name">
+                  Pro Display XDR
+                </h2>
+                <h3 class="food-rating">
+                  <span>5.0</span>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+
+          <!-- Slide-start -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="/img/macpro.png" alt="Tranding">
+            </div>
+            <div class="tranding-slide-content">  
+              <div class="tranding-slide-content-bottom">
+                <h2 class="food-name">
+                  Mac Pro
+                </h2>
+                <h3 class="food-rating">
+                  <span>5.0</span>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+
+          <!-- Slide-start -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="/img/appletv4k.png" alt="Tranding">
+            </div>
+            <div class="tranding-slide-content">     
+              <div class="tranding-slide-content-bottom">
+                <h2 class="food-name">
+                  Apple TV 4K
+                </h2>
+                <h3 class="food-rating">
+                  <span>5.0</span>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+
+          <!-- Slide-start -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="/img/14promax.png" alt="Tranding">
+            </div>
+            <div class="tranding-slide-content">        
+              <div class="tranding-slide-content-bottom">
+                <h2 class="food-name">
+                  iPhone 14 Pro Max
+                </h2>
+                <h3 class="food-rating">
+                  <span>5.0</span>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+
+          <!-- Slide-start -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="/img/visionpro.png" alt="Tranding">
+            </div>
+            <div class="tranding-slide-content">
+              <div class="tranding-slide-content-bottom">
+                <h2 class="food-name">
+                  Vision Pro
+                </h2>
+                <h3 class="food-rating">
+                  <span>5.0</span>
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- Slide-end -->
+
+        </div>           
+      </div>
+      
+      
+      <div class="tranding-slider-control">
+        <div class="swiper-button-prev slider-arrow">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </div>
+        <div class="swiper-button-next slider-arrow">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+</section>
+      
+          
+
+<!------------------------------------------------ Footer ---------------------------------------------------->
+<footer class="footer">
+
+  <div class="containerrr">
+    <div class="rowww">
+      <div class="footer-col">
+        <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>get help</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">shipping</a></li>
+          <li><a href="#">returns</a></li>
+          <li><a href="#">order status</a></li>
+          <li><a href="#">payment options</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>online shop</h4>
+        <ul>
+          <li><a href="#">watch</a></li>
+          <li><a href="#">bag</a></li>
+          <li><a href="#">shoes</a></li>
+          <li><a href="#">dress</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+
+<!------------------------------------------------ JS ---------------------------------------------------->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="/js/home.js"></script>
+
+         
+
+</body>
+</html>
